@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_232410101021_utspbo", "1021_Nadhira Salzabilla Istiazah_UTSPBO\A_232410101021_utspbo.csproj", "{9FC274B3-81F1-4867-8C62-70C10A196C15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{C53943A6-009F-456B-BD88-9AB63AB8FAC7}"
+	ProjectSection(SolutionItems) = preProject
+		Buku.cs = Buku.cs
+		Admin.cs = Admin.cs
+		Pengguna.cs = Pengguna.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{94C7BF4E-DC20-4609-B2DF-551A949D6488}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{357F0591-0794-4720-892F-082C14E69A26}"
+	ProjectSection(SolutionItems) = preProject
+		DatabaseWrapped.cs = DatabaseWrapped.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FC274B3-81F1-4867-8C62-70C10A196C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC274B3-81F1-4867-8C62-70C10A196C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC274B3-81F1-4867-8C62-70C10A196C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC274B3-81F1-4867-8C62-70C10A196C15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B6A5AC0-0A1B-40F4-923C-DA77E8B48D59}
+	EndGlobalSection
+EndGlobal
